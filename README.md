@@ -1,30 +1,51 @@
-# React + TypeScript + Vite
+# Landing Page de Gimnasio con TypeScript
+### 🚀 ¡Bienvenido a la Landing Page de Gimnasio construida con TypeScript!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto consiste en una landing page moderna y receptiva diseñada para un sitio web de fitness. La aplicación está desarrollada utilizando las últimas tecnologías del frontend para proporcionar una experiencia de usuario atractiva y fluida.
 
-Currently, two official plugins are available:
+### 🌐 Características Principales:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Frontend: Desarrollado con React y TypeScript.
+- Desempeño Óptimo: Utilización de Vite para un desarrollo rápido y eficiente.
+- Estilo Moderno: Diseño elegante y receptivo utilizando Tailwind CSS.
+- Iconos y Animaciones: Implementación de Hero Icons y Framer Motion para una interfaz visualmente atractiva.
 
-## Expanding the ESLint configuration
+### 📌 Tecnologías Utilizadas:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Frameworks: React, TypeScript
+- Construcción: Vite
+- Estilos: Tailwind CSS
+- Iconos: Hero Icons
+- Animaciones: Framer Motion
+- Formulario: Form Submit
+- Navegación: React Anchor Link Smooth Scroll
 
-- Configure the top-level `parserOptions` property like this:
+### 🔧 Instalación y Configuración:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+Clona el repositorio:
+
+```
+git clone https://github.com/tuusuario/tu-repositorio
+cd tu-repositorio
+```
+Instala las dependencias del proyecto:
+
+```
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Inicia el servidor de desarrollo:
+
+```
+npm run dev
+```
+
+Compila la aplicación para producción:
+
+```
+npm run build
+```
+
+### 🎓 Conclusión:
+
+Este proyecto demuestra cómo construir una landing page de fitness moderna y eficiente utilizando React y TypeScript. Proporciona una base sólida para expandir y personalizar según las necesidades específicas de cualquier sitio web de fitness.
